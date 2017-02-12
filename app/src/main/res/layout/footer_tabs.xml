@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Home"
+        android:id="@+id/footertab1"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:drawableTop="@android:drawable/ic_dialog_dialer"
+        android:focusable="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="New"
+        android:id="@+id/footertab2"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:drawableTop="@android:drawable/ic_popup_reminder"
+        android:focusable="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="Chat"
+        android:id="@+id/footertab3"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:focusable="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="Settings"
+        android:id="@+id/footertab4"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:drawableTop="@android:drawable/ic_dialog_info"
+        android:focusable="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+</LinearLayout>
